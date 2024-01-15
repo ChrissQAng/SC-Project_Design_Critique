@@ -1,8 +1,84 @@
+/* ------------- basics */
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-/*img {
+img {
   max-width: 100%;
+}
+
+@font-face {
+  font-family: inter-light;
+  src: url(../fonts/Inter-Light.ttf);
+}
+@font-face {
+  font-family: inter-reg;
+  src: url(../fonts/Inter-Regular.ttf);
+}
+@font-face {
+  font-family: inter-bold;
+  src: url(../fonts/Inter-Bold.ttf);
+}
+@font-face {
+  font-family: inter;
+  src: url(../fonts/Inter-VariableFont_slnt\wght.ttf);
+}
+html {
+  font-size: 62.5%;
+  font-family: inter-reg, Arial, Helvetica, sans-serif;
+  color: #2b2c2e;
+}
+h1 {
+  font-size: 3.9rem;
+  font-family: inter-light, Arial, Helvetica, sans-serif;
+}
+h2 {
+  font-size: 2.4rem;
+  font-family: inter-bold, Arial, Helvetica, sans-serif;
+}
+h3 {
+}
+h4 {
+}
+h5 {
+}
+a {
+  text-decoration: none;
+}
+/* -------------- header */
+
+/* -------------- nav-bar */
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 2rem;
+}
+.nav-navigation {
+  display: flex;
+  gap: 3rem;
+}
+.nav-navigation a {
+  font-size: 1.4rem;
+  color: #2b2c2e;
+}
+.nav-button {
+  font-size: 1.7rem;
+  color: #3d3e41;
+  border: 1px solid #48494c;
+  padding: 1rem 5rem;
+}
+
+/* ------------- header-content */
+
+/* .head-content {
+  background: url(../img/home_hero.png) center no-repeat;
+  background-size: cover;
 } */
+.head-content h1 {
+  text-align: center;
+  padding: 10rem 0 1rem 0;
+  font-weight: 300;
+}
