@@ -76,6 +76,10 @@ nav {
   border: 1px solid #48494c;
   padding: 1rem 5rem;
 }
+.nav-button:hover {
+  background-color: #48494c;
+  color: white;
+}
 
 /* ---------------------- header-content */
 
@@ -169,3 +173,60 @@ nav {
 
 /* ----------------- .critique  */
 
+.critique h4 {
+  text-align: center;
+  padding: 20vh 0 10vh 0;
+}
+.critique p {
+  font-size: 1.5rem;
+  color: #9fa2a7;
+  text-align: center;
+  padding-bottom: 3vh;
+}
+.percent {
+  position: relative;
+}
+.percent img {
+  padding-top: 20vh;
+}
+.percent-text {
+  padding-left: 320px;
+  position: absolute;
+}
+.percent p {
+  text-align: left;
+  font-size: 2rem;
+  color: #9fa2a7;
+  padding-top: 20px;
+}
+.push-img {
+  position: absolute;
+  width: 700px;
+  top: 225px;
+  right: 0;
+}
+
+/* ----------------------- footer */
+
+footer {
+  position: relative;
+  padding-bottom: 20vh;
+}
+footer h4 {
+  padding-top: 60vh;
+  text-align: center;
+}
+footer img {
+  padding-top: 15vh;
+  padding-left: 35vw;
+}
+footer p {
+  font-size: 1.6rem;
+  color: #9fa2a7;
+  position: absolute;
+  left: 650px;
+  bottom: 180px;
+}
+footer span {
+  color: #2b2c2e;
+}
