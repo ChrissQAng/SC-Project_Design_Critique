@@ -31,25 +31,31 @@ html {
   color: #2b2c2e;
 }
 h1 {
-  font-size: 3.9rem;
   font-family: inter-light, Arial, Helvetica, sans-serif;
+  font-size: 3.9rem;
 }
 h2 {
-  font-size: 2.4rem;
   font-family: inter-bold, Arial, Helvetica, sans-serif;
+  font-size: 2.4rem;
 }
 h3 {
+  font-family: inter-bold, Arial, Helvetica, sans-serif;
+  font-size: 5.5rem;
+  color: #27282a;
 }
 h4 {
+  font-family: inter-bold, Arial, Helvetica, sans-serif;
+  font-size: 5rem;
+  color: #27282a;
 }
 h5 {
 }
 a {
   text-decoration: none;
 }
-/* -------------- header */
+/* ------------------------------ header */
 
-/* -------------- nav-bar */
+/* ---------------------- nav-bar */
 nav {
   display: flex;
   justify-content: space-around;
@@ -71,14 +77,95 @@ nav {
   padding: 1rem 5rem;
 }
 
-/* ------------- header-content */
+/* ---------------------- header-content */
 
-/* .head-content {
-  background: url(../img/home_hero.png) center no-repeat;
-  background-size: cover;
-} */
 .head-content h1 {
   text-align: center;
   padding: 10rem 0 1rem 0;
   font-weight: 300;
 }
+
+/* ---------------------------------------- main */
+
+/* ------------- .offer */
+
+.offer {
+  padding-top: 20rem;
+  padding-bottom: 20rem;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+.offer p {
+  font-family: inter-light, Arial, Helvetica, sans-serif;
+  font-size: 2.1rem;
+  width: 55vw;
+  word-spacing: 0.2rem;
+}
+.offer-price {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.price {
+  font-family: inter-bold, Arial, Helvetica, sans-serif;
+  font-size: 6.1rem;
+}
+.price-descr {
+  font-size: 2rem;
+  color: #9fa2a7;
+}
+
+/* --------------- .deliver */
+
+.deliver {
+  padding-left: 8vw;
+  padding-right: 8vw;
+  padding-bottom: 20vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.deliver-right {
+  margin-left: -4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.deliver-right p {
+  font-size: 2.1rem;
+  color: #848689;
+}
+.deliver-right h3 {
+  padding-bottom: 4rem;
+}
+
+/* -------------- .hiw  - how it works */
+
+.hiw {
+  margin-left: 8vw;
+  margin-right: 8vw;
+  display: flex;
+  gap: 3rem;
+  background-color: #f1f1f4;
+}
+.hiw-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4rem;
+  padding-left: 6rem;
+}
+.hiw-left p {
+  font-size: 1.7rem;
+  color: #848689;
+}
+.hiw-left p:first-of-type {
+  padding-left: 5rem;
+}
+.hiw img {
+  width: 45vw;
+}
+
+/* ----------------- .critique  */
+
