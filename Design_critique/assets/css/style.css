@@ -173,6 +173,10 @@ nav {
 
 /* ----------------- .critique  */
 
+.critique {
+  margin-bottom: 10vh;
+}
+
 .critique h4 {
   text-align: center;
   padding: 20vh 0 10vh 0;
@@ -183,15 +187,18 @@ nav {
   text-align: center;
   padding-bottom: 3vh;
 }
+
+/* ------ .percent */
+
 .percent {
-  position: relative;
-}
-.percent img {
-  padding-top: 20vh;
+  padding-top: 18vh;
+  background: url(../img/28.png) top/95rem no-repeat;
 }
 .percent-text {
-  padding-left: 320px;
-  position: absolute;
+  background: url(../img/home_conversion.png) center right/500px no-repeat;
+  background-position-x: 38vw;
+  padding-left: 30rem;
+  padding-top: 8vh;
 }
 .percent p {
   text-align: left;
@@ -199,17 +206,10 @@ nav {
   color: #9fa2a7;
   padding-top: 20px;
 }
-.push-img {
-  position: absolute;
-  width: 700px;
-  top: 225px;
-  right: 0;
-}
 
 /* ----------------------- footer */
 
 footer {
-  position: relative;
   padding-bottom: 20vh;
 }
 footer h4 {
@@ -223,9 +223,7 @@ footer img {
 footer p {
   font-size: 1.6rem;
   color: #9fa2a7;
-  position: absolute;
-  left: 650px;
-  bottom: 180px;
+  padding-left: 50vw;
 }
 footer span {
   color: #2b2c2e;
